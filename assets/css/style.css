@@ -1937,10 +1937,16 @@ textarea {
 .slider-height-1 {
   height: 770px;
 }
+.slider-height-0 {
+  height: 455px;
+}
 
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
   .slider-height-1 {
     height: 600px;
+  }
+  .slider-height-0 {
+    height: 325px;
   }
 }
 
@@ -1948,11 +1954,17 @@ textarea {
   .slider-height-1 {
     height: 600px;
   }
+  .slider-height-0 {
+    height: 325px;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-height-1 {
     height: 550px;
+  }
+  .slider-height-0 {
+    height: 300px;
   }
 }
 
@@ -1960,10 +1972,17 @@ textarea {
   .slider-height-1 {
     height: 500px;
   }
+  .slider-height-0 {
+    height: 275px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
   .slider-height-1 {
+    height: auto;
+    padding: 60px 0;
+  }
+  .slider-height-0 {
     height: auto;
     padding: 60px 0;
   }
@@ -4222,16 +4241,22 @@ textarea {
   color: #000;
   position: relative;
 }
+.white{
+  color: #fff !important;
+}
 
 .banner-content-5 span.black {
   color: #000000;
+}
+.banner-content-5 span.white {
+  color: #fff;
 }
 
 .banner-content-5 span:before {
   position: absolute;
   content: "";
-  left: -67px;
-  width: 50px;
+  left: -47px;
+  width: 40px;
   height: 3px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4243,8 +4268,8 @@ textarea {
 .banner-content-5 span:after {
   position: absolute;
   content: "";
-  right: -67px;
-  width: 50px;
+  right: -47px;
+  width: 40px;
   height: 3px;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -4287,7 +4312,7 @@ textarea {
   margin: 25px 0 40px;
   font-family: "URWAbbeyW01";
   color: #ffffff;
-  -webkit-text-stroke: 4px #e97730;
+  -webkit-text-stroke: 4px #e9773000 !important;
 }
 
 .banner-content-5 h1.font-montserrat {
@@ -7033,7 +7058,7 @@ textarea {
 }
 
 .footer-address ul li span {
-  color: #4a4a4a;
+  color: #e97730;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
